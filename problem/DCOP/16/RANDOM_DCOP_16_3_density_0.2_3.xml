@@ -1,0 +1,95 @@
+<instance>
+  <presentation name="instance3" type="DCOP" benchmark="RandomDCOP" model="Simple" constraintModel="TKC" format="XDisCSP 1.0" />
+  <agents nbAgents="16">
+    <agent name="A1" id="1" description="Agent 1" />
+    <agent name="A2" id="2" description="Agent 2" />
+    <agent name="A3" id="3" description="Agent 3" />
+    <agent name="A4" id="4" description="Agent 4" />
+    <agent name="A5" id="5" description="Agent 5" />
+    <agent name="A6" id="6" description="Agent 6" />
+    <agent name="A7" id="7" description="Agent 7" />
+    <agent name="A8" id="8" description="Agent 8" />
+    <agent name="A9" id="9" description="Agent 9" />
+    <agent name="A10" id="10" description="Agent 10" />
+    <agent name="A11" id="11" description="Agent 11" />
+    <agent name="A12" id="12" description="Agent 12" />
+    <agent name="A13" id="13" description="Agent 13" />
+    <agent name="A14" id="14" description="Agent 14" />
+    <agent name="A15" id="15" description="Agent 15" />
+    <agent name="A16" id="16" description="Agent 16" />
+  </agents>
+  <domains nbDomains="1">
+    <domain name="D1" nbValues="3">1..3</domain>
+  </domains>
+  <variables nbVariables="16">
+    <variable agent="A1" name="X1.1" id="1" domain="D1" description="variable 1.1" />
+    <variable agent="A2" name="X2.1" id="1" domain="D1" description="variable 2.1" />
+    <variable agent="A3" name="X3.1" id="1" domain="D1" description="variable 3.1" />
+    <variable agent="A4" name="X4.1" id="1" domain="D1" description="variable 4.1" />
+    <variable agent="A5" name="X5.1" id="1" domain="D1" description="variable 5.1" />
+    <variable agent="A6" name="X6.1" id="1" domain="D1" description="variable 6.1" />
+    <variable agent="A7" name="X7.1" id="1" domain="D1" description="variable 7.1" />
+    <variable agent="A8" name="X8.1" id="1" domain="D1" description="variable 8.1" />
+    <variable agent="A9" name="X9.1" id="1" domain="D1" description="variable 9.1" />
+    <variable agent="A10" name="X10.1" id="1" domain="D1" description="variable 10.1" />
+    <variable agent="A11" name="X11.1" id="1" domain="D1" description="variable 11.1" />
+    <variable agent="A12" name="X12.1" id="1" domain="D1" description="variable 12.1" />
+    <variable agent="A13" name="X13.1" id="1" domain="D1" description="variable 13.1" />
+    <variable agent="A14" name="X14.1" id="1" domain="D1" description="variable 14.1" />
+    <variable agent="A15" name="X15.1" id="1" domain="D1" description="variable 15.1" />
+    <variable agent="A16" name="X16.1" id="1" domain="D1" description="variable 16.1" />
+  </variables>
+  <constraints nbConstraints="24">
+    <constraint name="C0" model="TKC" arity="2" scope="X14.1 X15.1" reference="R0" />
+    <constraint name="C1" model="TKC" arity="2" scope="X3.1 X13.1" reference="R1" />
+    <constraint name="C2" model="TKC" arity="2" scope="X6.1 X12.1" reference="R2" />
+    <constraint name="C3" model="TKC" arity="2" scope="X2.1 X15.1" reference="R3" />
+    <constraint name="C4" model="TKC" arity="2" scope="X10.1 X12.1" reference="R4" />
+    <constraint name="C5" model="TKC" arity="2" scope="X10.1 X14.1" reference="R5" />
+    <constraint name="C6" model="TKC" arity="2" scope="X4.1 X14.1" reference="R6" />
+    <constraint name="C7" model="TKC" arity="2" scope="X15.1 X16.1" reference="R7" />
+    <constraint name="C8" model="TKC" arity="2" scope="X3.1 X8.1" reference="R8" />
+    <constraint name="C9" model="TKC" arity="2" scope="X4.1 X9.1" reference="R9" />
+    <constraint name="C10" model="TKC" arity="2" scope="X8.1 X12.1" reference="R10" />
+    <constraint name="C11" model="TKC" arity="2" scope="X1.1 X10.1" reference="R11" />
+    <constraint name="C12" model="TKC" arity="2" scope="X7.1 X10.1" reference="R12" />
+    <constraint name="C13" model="TKC" arity="2" scope="X5.1 X14.1" reference="R13" />
+    <constraint name="C14" model="TKC" arity="2" scope="X3.1 X11.1" reference="R14" />
+    <constraint name="C15" model="TKC" arity="2" scope="X12.1 X14.1" reference="R15" />
+    <constraint name="C16" model="TKC" arity="2" scope="X2.1 X8.1" reference="R16" />
+    <constraint name="C17" model="TKC" arity="2" scope="X1.1 X15.1" reference="R17" />
+    <constraint name="C18" model="TKC" arity="2" scope="X2.1 X10.1" reference="R18" />
+    <constraint name="C19" model="TKC" arity="2" scope="X1.1 X14.1" reference="R19" />
+    <constraint name="C20" model="TKC" arity="2" scope="X4.1 X13.1" reference="R20" />
+    <constraint name="C21" model="TKC" arity="2" scope="X11.1 X12.1" reference="R21" />
+    <constraint name="C22" model="TKC" arity="2" scope="X5.1 X12.1" reference="R22" />
+    <constraint name="C23" model="TKC" arity="2" scope="X7.1 X13.1" reference="R23" />
+  </constraints>
+  <relations nbRelations="24">
+    <relation name="R0" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">51:1 1|27:1 2|9:1 3|45:2 1|4:2 2|19:2 3|8:3 1|91:3 2|31:3 3</relation>
+    <relation name="R1" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">50:1 1|49:1 2|30:1 3|6:2 1|95:2 2|81:2 3|65:3 1|27:3 2|3:3 3</relation>
+    <relation name="R2" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">75:1 1|14:1 2|67:1 3|29:2 1|5:2 2|33:2 3|94:3 1|58:3 2|29:3 3</relation>
+    <relation name="R3" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">28:1 1|2:1 2|66:1 3|82:2 1|60:2 2|78:2 3|94:3 1|39:3 2|14:3 3</relation>
+    <relation name="R4" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">19:1 1|11:1 2|60:1 3|70:2 1|98:2 2|16:2 3|1:3 1|91:3 2|37:3 3</relation>
+    <relation name="R5" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">36:1 1|35:1 2|1:1 3|15:2 1|37:2 2|96:2 3|44:3 1|6:3 2|84:3 3</relation>
+    <relation name="R6" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">34:1 1|46:1 2|17:1 3|64:2 1|44:2 2|32:2 3|76:3 1|4:3 2|94:3 3</relation>
+    <relation name="R7" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">13:1 1|90:1 2|93:1 3|11:2 1|57:2 2|95:2 3|54:3 1|62:3 2|51:3 3</relation>
+    <relation name="R8" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">67:1 1|85:1 2|21:1 3|64:2 1|33:2 2|41:2 3|85:3 1|14:3 2|70:3 3</relation>
+    <relation name="R9" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">96:1 1|47:1 2|48:1 3|78:2 1|96:2 2|70:2 3|64:3 1|79:3 2|75:3 3</relation>
+    <relation name="R10" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">67:1 1|88:1 2|32:1 3|99:2 1|26:2 2|53:2 3|16:3 1|53:3 2|21:3 3</relation>
+    <relation name="R11" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">49:1 1|9:1 2|100:1 3|21:2 1|4:2 2|2:2 3|89:3 1|10:3 2|8:3 3</relation>
+    <relation name="R12" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">24:1 1|7:1 2|14:1 3|1:2 1|34:2 2|45:2 3|10:3 1|90:3 2|8:3 3</relation>
+    <relation name="R13" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">32:1 1|47:1 2|63:1 3|3:2 1|10:2 2|95:2 3|43:3 1|99:3 2|12:3 3</relation>
+    <relation name="R14" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">10:1 1|36:1 2|29:1 3|86:2 1|97:2 2|65:2 3|93:3 1|61:3 2|7:3 3</relation>
+    <relation name="R15" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">59:1 1|1:1 2|9:1 3|48:2 1|68:2 2|50:2 3|5:3 1|89:3 2|70:3 3</relation>
+    <relation name="R16" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">33:1 1|82:1 2|71:1 3|56:2 1|92:2 2|7:2 3|34:3 1|58:3 2|89:3 3</relation>
+    <relation name="R17" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">19:1 1|30:1 2|33:1 3|38:2 1|96:2 2|90:2 3|85:3 1|33:3 2|46:3 3</relation>
+    <relation name="R18" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">49:1 1|74:1 2|70:1 3|47:2 1|7:2 2|25:2 3|95:3 1|100:3 2|48:3 3</relation>
+    <relation name="R19" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">31:1 1|7:1 2|75:1 3|26:2 1|6:2 2|75:2 3|17:3 1|79:3 2|53:3 3</relation>
+    <relation name="R20" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">46:1 1|45:1 2|6:1 3|40:2 1|27:2 2|21:2 3|46:3 1|38:3 2|99:3 3</relation>
+    <relation name="R21" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">13:1 1|99:1 2|79:1 3|72:2 1|26:2 2|42:2 3|56:3 1|21:3 2|40:3 3</relation>
+    <relation name="R22" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">4:1 1|40:1 2|62:1 3|32:2 1|44:2 2|96:2 3|20:3 1|57:3 2|72:3 3</relation>
+    <relation name="R23" arity="2" nbTuples="9" semantics="soft" defaultCost="infinity">85:1 1|77:1 2|76:1 3|40:2 1|43:2 2|89:2 3|58:3 1|31:3 2|34:3 3</relation>
+  </relations>
+  <GuiPresentation type="DCOP" benchmark="RandomDCOP" name="instance3" model="TKC" nbAgents="16" domainSize="3" density="0" tightness="0" nbConstraints="24" nbTuples="9" />
+</instance>

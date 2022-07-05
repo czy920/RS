@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <agents>
+
+        <agent name="TreeBB" class="edu.cqu.algorithms.Treebb.TreeBB" method="SYNC"></agent>
+        <agent name="TreeBBOCS" class="edu.cqu.algorithms.Treebb.OCS.TreeBBRetentionPlusOCS" method="SYNC"></agent>
+        <agent name="TreeBBRS" class="edu.cqu.algorithms.Treebb.Ori.TreeBBRetentionPlusOri" method="SYNC"></agent>
+        <agent name="TreeBBRSOri" class="edu.cqu.algorithms.Treebb.Ori.TreeBBRetentionPlusOri" method="SYNC"></agent>
+        <agent name="TreeBBRSFIFO" class="edu.cqu.algorithms.Treebb.FIFO.TreeBBRetentionPlusFIFO" method="SYNC"></agent>
+        <agent name="TreeBBRSFILO" class="edu.cqu.algorithms.Treebb.FILO.TreeBBRetentionPlusFILO" method="SYNC"></agent>
+        <agent name="TreeBBRSLFU" class="edu.cqu.algorithms.Treebb.LFU.TreeBBRetentionPlusLFU" method="SYNC"></agent>
+        <agent name="TreeBBRSLRU" class="edu.cqu.algorithms.Treebb.LRU.TreeBBRetentionPlusLRU" method="SYNC"></agent>
+        <agent name="TreeBBRSUB" class="edu.cqu.algorithms.Treebb.UB.TreeBBRetentionPlusUB" method="SYNC"></agent>
+        <agent name="TreeBBRSSYS" class="edu.cqu.algorithms.Treebb.SYS.TreeBBRetentionPlusSYS" method="SYNC"></agent>
+        <agent name="PTFB" class="edu.cqu.algorithms.ptfb.PTFB" method="SYNC"></agent>
+        <agent name="PTFBRS" class="edu.cqu.algorithms.ptfb.PTFB_RS" method="SYNC"></agent>
+        <agent name="PTISBB" class="edu.cqu.algorithms.PTISBB.PTISBB" method="SYNC"></agent>
+        <agent name="PTISBBRS" class="edu.cqu.algorithms.PTISBB.PTISBBRS" method="SYNC"></agent>
+        <agent name="HSCAI" class="edu.cqu.algorithms.HSCAI.PTISBB_T" method="SYNC"></agent>
+        <agent name="HSCAIRS" class="edu.cqu.algorithms.HSCAI.Retention.PTISBB_T" method="SYNC"></agent>
+
+
+
+        </agents>
+</manifest>
